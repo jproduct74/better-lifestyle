@@ -21,9 +21,13 @@ body
 #header
 {
     display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 #navbutton
@@ -73,11 +77,13 @@ body
     background-color: transparent;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
+    border: 2px solid black;
 }
 
 #setupaplan:hover
 {
     color: white;
+    border: 2px solid #7ED955;
 }
 
 #socials
@@ -88,7 +94,7 @@ body
 #moreab
 {
     font-family: 'Oswald', sans-serif;
-    font-size: 42px;
+    font-size: 36px;
     text-align: center;
     position: relative;
     bottom: 5vh;
@@ -129,7 +135,89 @@ body
     color: #7ED955;
 }
 
+#bafcont
+{
+    display: flex;
+    gap: 5%;
+    font-family: 'Jost', sans-serif;
+    justify-content: space-around;
+    position: relative;
+    bottom: 20vh;
+    font-size: 16px;
+    padding: 1em;
+    margin: 7vw;
+}
 
+#beforeimage
+{
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#afterimage
+{
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+
+}
+
+#beforetitle
+{
+    position: relative;
+    left: 5vw;
+}
+
+#aftertitle
+{
+    position: relative;
+    left: 5.8vw;
+}
+
+#final
+{
+    display: flex;
+    margin: 7vw;
+    padding: 5em;
+    border-left: 5px solid #7ED955;
+    position: relative;
+    bottom: 30vh;
+}
+
+#finaltitle
+{
+    font-family: 'Oswald', sans-serif;
+}
+
+#finalsub
+{
+    font-family: 'Jost', sans-serif;
+}
+
+#contact
+{
+    font-family: 'Oswald', sans-serif;
+    background-color: transparent;
+    position: relative;
+    font-size: 32px;
+    top: 3vh;
+    
+}
+
+#contact:hover
+{
+    color: white;
+    border: 2px solid #7ED955;
+}
+
+#viewab
+{
+    text-align: center;
+    position: relative;
+    bottom: 10vh;
+    color: transparent;
+}
 
 
 
