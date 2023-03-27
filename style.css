@@ -166,13 +166,31 @@ body
 #beforetitle
 {
     position: relative;
-    left: 5vw;
+    left: 4vw;
+    background-color: black;
+    color: white;
+    width: 10vw;
+    text-align: center;
+    bottom: 5vh;
 }
 
 #aftertitle
 {
     position: relative;
-    left: 5.8vw;
+    left: 4.5vw;
+    background-color: black;
+    color: white;
+    width: 10vw;
+    text-align: center;
+    bottom: 5vh;
+}
+
+#bafheader
+{
+    text-align: center;
+    position: relative;
+    bottom: 15vh;
+    font-family: 'Oswald', sans-serif;
 }
 
 #final
