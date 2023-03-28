@@ -100,7 +100,8 @@ body
     font-size: 36px;
     text-align: center;
     position: relative;
-    top: 5vh;
+    left: 45%;
+    bottom: 4vh;
 }
 
 #myjourney
@@ -118,6 +119,7 @@ body
 #myjourneytitle
 {
     font-family: 'Oswald', sans-serif;
+    
 }
 
 #myjourneysub
@@ -130,31 +132,24 @@ body
     display: flex;
 }
 
-#line1
+#leftline
 {
-    background-color: transparent;
-    border-bottom: 10px solid #7ED955;
+    background-color: #7ED955;
     height: fit-content;
-    width: 30%;
-    padding-left: 10%;
-    position: relative;
-    right: 5vw;
+    position: absolute;
+    left: 0;
+    width: 40%;
     color: #7ED955;
-    top: 10vh;
 }
 
-#line
+#rightline
 {
-    background-color: transparent;
-    border-bottom: 10px solid #7ED955;
+    background-color: #7ED955;
     height: fit-content;
-    width: 35%;
-    padding-left: 10%;
-    position: relative;
-    left: 5vw;
+    position: absolute;
+    right: 0;
+    width: 40%;
     color: #7ED955;
-    top: 10vh;
-
 }
 
 #bafcont
