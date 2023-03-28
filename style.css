@@ -74,6 +74,13 @@ body
     font-family: 'Jost', sans-serif;
 }
 
+#dan3
+{
+    width: auto;
+    height: 400px; 
+    border-radius: 10px;
+}
+
 #setupaplan
 {
     background-color: transparent;
@@ -91,6 +98,11 @@ body
 #socials
 {
     padding: 1em;
+    width: auto; 
+    height: 50px;
+    position: relative; 
+    left: 15vw;
+    bottom: 7vh;
 }
 
 #moreab
@@ -245,7 +257,7 @@ body
     {
         width: 75vw;
         height: auto;
-        left: 3%;
+        left: 2%;
 
     }
 
@@ -262,6 +274,82 @@ body
         left: 5.8%;
         font-weight: 700;
         
+    }
+
+    #dan3
+    {
+        display: none;
+    }
+
+    #workwithme
+    {
+        position: relative;
+        top: 10vh;
+        height: fit-content;
+    }
+
+    #moreab
+    {
+        position: relative;
+        top: 9vh; 
+    }
+
+    #myjourney
+    {
+        position: relative;
+        top: 8.5vh;
+    }
+
+    #socialicons
+    {
+        display: flex;
+        position: relative;
+        right: 19vw;
+        
+    }
+    
+    #setupaplan
+    {
+        position: relative;
+        left: 15vw;
+        bottom: 8.5vh;
+        height: fit-content;
+    }
+
+    #bafheader
+    {
+        position: relative;
+        top: 10vh;
+    }
+
+    #bafcont
+    {
+        position: relative;
+        top: 10vh;
+    }
+
+    #beforeimage
+    {
+        height: 200px;
+        width: auto;
+    }
+
+    #afterimage
+    {
+        height: 200px;
+        width: auto;
+    }
+
+    #final
+    {
+        position: relative;
+        top: 10vh;
+    }
+
+    #footer
+    {
+        position: relative;
+        top: 10vh;
     }
 
   }
