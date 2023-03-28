@@ -219,7 +219,7 @@ body
     position: relative;
     font-size: 32px;
     top: 3vh;
-    
+    border: 2px solid black;
 }
 
 #contact:hover
