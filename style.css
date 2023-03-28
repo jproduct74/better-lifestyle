@@ -354,6 +354,11 @@ body
         position: relative;
         top: 10vh;
     }
+    
+    #contact
+    {
+        bottom: 2vh;
+    }
 
 
   }
