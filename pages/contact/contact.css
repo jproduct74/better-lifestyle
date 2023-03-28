@@ -10,6 +10,11 @@ body
     padding: 0;
 }
 
+a
+{
+    text-decoration: none;
+}
+
 #logo
 {
     width: 385px;
@@ -21,9 +26,13 @@ body
 #header
 {
     display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 #navbutton
@@ -39,4 +48,63 @@ body
 #navbutton:hover
 {
     color: white;
+}
+
+#contactme
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 10%;
+
+}
+
+#warning
+{
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    top: 10vh;
+    width: fit-content;
+    font-size: 22px;
+    height: fit-content;
+    background-color: red;
+    color: white;
+}
+
+#needto
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+}
+
+
+
+
+/* CSS for mobile devices */
+@media screen and (max-width: 600px) {
+
+    #logo
+    {
+        width: 75vw;
+        height: auto;
+        left: 2%;
+
+    }
+
+    #header
+    {
+        flex-direction: column;
+    }
+
+    #navbutton
+     {
+        font-size: 3.5vw;;
+        padding: 0.5em;
+        position: relative;
+        left: 5.8%;
+        font-weight: 700;
+        
+    }
 }
