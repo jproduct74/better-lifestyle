@@ -98,12 +98,12 @@ body
 
 #socials
 {
-    padding: 1em;
+    padding: 0.5em;
     width: auto; 
     height: 50px;
+    right: 0.9vw;
+    top: 2.8vh;
     position: relative; 
-    left: 15vw;
-    bottom: 7vh;
     text-decoration: none;
 }
 
@@ -307,8 +307,7 @@ body
     {
         display: flex;
         position: relative;
-        right: 19vw;
-        top: 5vh;
+        bottom: 1vh;
         
     }
     
