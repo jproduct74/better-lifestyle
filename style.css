@@ -87,7 +87,6 @@ body
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     border: 2px solid black;
-    color: black;
 }
 
 #setupaplan:hover
@@ -220,7 +219,6 @@ body
     position: relative;
     font-size: 32px;
     top: 3vh;
-    border: 2px solid black;
     color: black;
 }
 
@@ -307,15 +305,16 @@ body
         display: flex;
         position: relative;
         right: 19vw;
+        top: 5vh;
         
     }
     
     #setupaplan
     {
         position: relative;
-        left: 15vw;
-        bottom: 8.5vh;
         height: fit-content;
+        bottom: 2vh;
+        
     }
 
     #bafheader
@@ -353,5 +352,6 @@ body
         position: relative;
         top: 10vh;
     }
+
 
   }
