@@ -1,13 +1,18 @@
 html
 {
     background-color: #d9d9d9;
-
+    
 }
 
 body
 {
     margin: 0;
     padding: 0;
+}
+
+a
+{
+    text-decoration: none;
 }
 
 #logo
@@ -242,7 +247,8 @@ body
 #footer
 {
     font-family: 'Jost', sans-serif;
-    background-color: grey;
+    background-color: black;
+    color: #7ED955;
 }
 
 #footertitle
