@@ -104,6 +104,7 @@ body
     position: relative; 
     left: 15vw;
     bottom: 7vh;
+    text-decoration: none;
 }
 
 #moreab
@@ -221,7 +222,6 @@ body
     font-size: 24px;
     top: 3vh;
     color: black;
-    border: 2px solid black;
 }
 
 #contact:hover
@@ -354,7 +354,7 @@ body
         position: relative;
         top: 10vh;
     }
-    
+
     #contact
     {
         bottom: 2vh;
