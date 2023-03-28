@@ -87,6 +87,7 @@ body
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     border: 2px solid black;
+    color: black;
 }
 
 #setupaplan:hover
@@ -220,6 +221,7 @@ body
     font-size: 32px;
     top: 3vh;
     border: 2px solid black;
+    color: black;
 }
 
 #contact:hover
