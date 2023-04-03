@@ -1,0 +1,371 @@
+html
+{
+    background-color: #d9d9d9;
+    
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#logo
+{
+    width: 385px;
+    height: 50px;
+    position: relative;
+    top: 15%;
+}
+
+#header
+{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#navbutton
+{
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+    background-color: transparent;
+    border: none;
+    color: #7ED955;
+    font-size: 24px;
+}
+
+#navbutton:hover
+{
+    color: white;
+}
+
+#workwithme
+{
+    position: relative;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    margin: 7vw;
+    border-left: 5px solid #7ED955;
+    position: relative;
+
+}
+
+#wwmtitle
+{
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+#wwmbottomh
+{
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+#wwmsub
+{
+    font-family: 'Jost', sans-serif;
+}
+
+#dan3
+{
+    width: auto;
+    height: 400px; 
+    border-radius: 10px;
+}
+
+#setupaplan
+{
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    border: 2px solid black;
+    color: black;
+}
+
+#setupaplan:hover
+{
+    color: white;
+    border: 2px solid #7ED955;
+}
+
+#socials
+{
+    padding: 0.5em;
+    width: auto; 
+    height: 50px;
+    right: 0.9vw;
+    top: 2.8vh;
+    position: relative; 
+    text-decoration: none;
+}
+
+#moreab
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    background-color: #7ED955;
+}
+
+
+#myjourney
+{
+    padding: 5%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 7vw;
+    border-left: 5px solid #7ED955;
+
+}
+
+#myjourneytitle
+{
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+#myjourneysub
+{
+    font-family: 'Jost', sans-serif;
+}
+
+
+
+#bafcont
+{
+    display: flex;
+    gap: 5%;
+    font-family: 'Jost', sans-serif;
+    justify-content: space-around;
+    position: relative;
+    bottom: 20vh;
+    font-size: 16px;
+    padding: 1em;
+    margin: 7vw;
+}
+
+#beforeimage
+{
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+}
+
+#afterimage
+{
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+
+}
+
+#beforetitle
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 3vh;
+}
+
+#aftertitle
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 3vh;
+}
+
+#bafheader
+{
+    text-align: center;
+    position: relative;
+    bottom: 15vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+#final
+{
+    display: flex;
+    margin: 7vw;
+    padding: 5%;
+    border-left: 5px solid #7ED955;
+    position: relative;
+    bottom: 30vh;
+}
+
+#finaltitle
+{
+    font-family: 'Oswald', sans-serif;
+}
+
+#finalsub
+{
+    font-family: 'Jost', sans-serif;
+}
+
+#contact
+{
+    font-family: 'Oswald', sans-serif;
+    background-color: transparent;
+    position: relative;
+    font-size: 24px;
+    top: 3vh;
+    color: black;
+    border: 2px solid black;
+}
+
+#contact:hover
+{
+    color: white;
+    border: 2px solid #7ED955;
+}
+
+#viewab
+{
+    text-align: center;
+    position: relative;
+    bottom: 1vh;
+    color: transparent;
+}
+
+#footer
+{
+    font-family: 'Jost', sans-serif;
+    background-color: black;
+    color: #7ED955;
+}
+
+#footertitle
+{
+    font-size: 16px;
+}
+
+
+
+
+/* CSS for mobile devices */
+@media screen and (max-width: 600px) {
+
+    #logo
+    {
+        width: 75vw;
+        height: auto;
+        left: 2%;
+
+    }
+
+    #header
+    {
+        flex-direction: column;
+    }
+
+    #navbutton
+     {
+        font-size: 3.5vw;;
+        padding: 0.5em;
+        position: relative;
+        left: 5.8%;
+        font-weight: 700;
+        
+    }
+
+    #dan3
+    {
+        display: none;
+    }
+
+    #workwithme
+    {
+        position: relative;
+        top: 10vh;
+        height: fit-content;
+    }
+
+    #moreab
+    {
+        position: relative;
+        top: 9vh; 
+    }
+
+    #myjourney
+    {
+        position: relative;
+        top: 8.5vh;
+    }
+
+    #socialicons
+    {
+        display: flex;
+        position: relative;
+        bottom: 1vh;
+        
+    }
+    
+    #setupaplan
+    {
+        position: relative;
+        height: fit-content;
+        bottom: 2vh;
+        
+    }
+
+    #bafheader
+    {
+        position: relative;
+        top: 10vh;
+    }
+
+    #bafcont
+    {
+        position: relative;
+        top: 10vh;
+    }
+
+    #beforeimage
+    {
+        height: 200px;
+        width: auto;
+    }
+
+    #afterimage
+    {
+        height: 200px;
+        width: auto;
+    }
+
+    #final
+    {
+        position: relative;
+        top: 10vh;
+    }
+
+    #footer
+    {
+        position: relative;
+        top: 10vh;
+        color: white;
+    }
+
+    #contact
+    {
+        bottom: 2vh;
+    }
+
+
+  }
