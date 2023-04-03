@@ -1,0 +1,213 @@
+html
+{
+    background-color: #d9d9d9;
+
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#logo
+{
+    width: 385px;
+    height: 50px;
+    position: relative;
+    top: 15%;
+}
+
+#header
+{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#navbutton
+{
+    font-family: 'Raleway', sans-serif;
+    padding: 1em;
+    background-color: transparent;
+    border: none;
+    color: #7ED955;
+    font-size: 24px;
+}
+
+#navbutton:hover
+{
+    color: white;
+}
+
+#contactme
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 5%;
+    width: 30vw;
+    left: 29%;
+    
+}
+
+
+#needto
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    flex-direction: column;
+    position: relative;
+    left: 0.5vw;
+    border: 5px solid black;
+    height: 8vh;
+}
+
+#contactstext
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    position: relative;
+    left: 5vw;
+    padding: 3%;
+    border-bottom: 3px solid #7ED955;
+    width: 20vw;
+    text-align: left;
+}
+
+
+
+#socials
+{
+    padding: 0.5em;
+    width: auto; 
+    height: 50px;
+    right: 0.9vw;
+    top: 2.8vh;
+    position: relative; 
+    text-decoration: none;
+}
+
+#socialicons
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 5vh;
+    left: 1vw;
+}
+
+#contacts
+{
+    position: relative;
+    top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram-media
+{
+    position: relative;
+    top: 10vh;
+    right: 1vh;
+    padding: 5%;
+    height: 60%;
+    width: auto;
+}
+
+#emailtext
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 180%;
+    position: relative;
+    top: 5vh;
+    border-left: 4px solid #7ED955;
+    padding: 5%;
+    width: 7vw;
+    left: 4vw;
+}
+
+#phonetext
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 180%;
+    position: relative;
+    top: 5vh;
+    border-left: 4px solid #7ED955;
+    padding: 3%;
+    width: 10vw;
+    left: 4vw;
+}
+
+#emailtextinfo
+{
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    text-align: left;
+    left: 8vw;
+    padding: 3%;
+    width: 18vw;
+    border-bottom: 3px solid #7ED955;
+}
+
+#emailinfo
+{
+    position: relative;
+    top: 10vh;
+    right: 2.5vw;
+}
+
+
+#space
+{
+    height: 400px;
+}
+
+#zz
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/* CSS for mobile devices */
+@media screen and (max-width: 600px) {
+
+    #logo
+    {
+        width: 75vw;
+        height: auto;
+        left: 2%;
+
+    }
+
+    #header
+    {
+        flex-direction: column;
+    }
+
+    #navbutton
+     {
+        font-size: 3.5vw;;
+        padding: 0.5em;
+        position: relative;
+        left: 5.8%;
+        font-weight: 700;
+        
+    }
+}
