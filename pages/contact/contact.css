@@ -122,7 +122,12 @@ a
 
 #contacts
 {
-    border-left: 5px solid #7ED955;
+    position: relative;
+    top: 5vh;
+}
+
+.instagram-media
+{
     position: relative;
     top: 5vh;
 }
