@@ -107,6 +107,7 @@ a
     position: relative;
     bottom: 5vh;
     left: 1vw;
+    height: fit-content;
 }
 
 #contacts
